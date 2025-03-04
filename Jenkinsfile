@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         SCRIPT_PATH = "tfl_buses.py"  // Your Python script for buses
-        REMOTE_HDFS_FILE = "/tmp/big_datajan2025/TFL/Buses/tfl_realtime_data_buses.csv"
+        REMOTE_HDFS_FILE = "/tmp/big_datajan2025/tfl_Buses/tfl_realtime_data_buses.csv"
         LOCAL_TEMP_FILE = "merged_tfl_buses.csv"
         TEMP_NEW_FILE = "tfl_realtime_data_buses.csv"  // Generated CSV file from script
     }
